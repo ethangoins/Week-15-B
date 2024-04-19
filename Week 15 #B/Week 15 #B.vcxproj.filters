@@ -23,8 +23,5 @@
     <ClInclude Include="goinsLib.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="half.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,36 +1,30 @@
 #ifndef HALF_H
 #define HALF_H
 #include"goinsLib.h"
+#include<cmath>
 
-template <typename T>
+/*template <typename T>
 class half {
-private:
 public:
-	half(int);
-	half(double);
-	half(float);
-};
+	int c;
+	float b;
+	double a;
+public:
+	half() {};
+	half(int number);
+	half(double number);
+	half(float number);
+	float getB() {
+		return b;
+	}
+	int getC() {
+		return c;
+	}
+	double getA() {
+		return a;
+	}
+};*/
 
 
-template <typename T>
-half<T>::half(int number) {
-float halfed;
-round(halfed) = static_cast<float>(number / 2);
-return static_cast<int>(halfed);
-}
-
-template <typename T>
-half<T>::half(double number) {
-	double halfed;
-	halfed = number / 2;
-	return halfed;
-}
-
-template <typename T>
-half<T>::half(float number) {
-	float halfed;
-	halfed = number / 2;
-	return halfed;
-}
 
 #endif 

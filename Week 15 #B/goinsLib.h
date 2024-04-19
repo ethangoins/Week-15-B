@@ -9,7 +9,6 @@
 #include <vector>
 #include <exception>
 #include <stdexcept>
-#include<cmath>
 
 using namespace std;
 
